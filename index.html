@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bike Commute Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="survey form">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <title>Bike Commute Survey Form</title>
+  </head>
+  <body class="fullpage">
+    <h1 class="title">What is my bike commute like?</h1>
+    <h2 class="description">Share with us what your bike commute looks like!</h2>
+    <p>Required fields are followed by an *</p>
+      <form id="survey-form" name="bikeSurvey">
+        <div class="row-tab">
+          <div class="row-field">
+            <div class="row-title">
+              <label for="name" id="name-label">
+                <span>*Name: <input class="input-field" type="email" name="firstName" id="name" placeholder="Enter name" required></span>
+              </label>
+            </div>  
+           </div>
+        </div>
+        <div class="row-tab">
+          <div class="row-field">
+            <div class="row-title">
+              <label for="mail" id="email-label">
+                <span>*E-mail:<input class="input-field" type="text" id="txtEmail" placeholder="Enter e-mail address" onclick='Javascript:formValidate();' required></span>
+                  </label>
+            </div>
+          </div>
+        </div>
+        <div class="row-tab">
+          <div class="row-field">
+            <div class="row-title">
+              <label id="number-label">
+                <span>Age:<input class="input-field" type="text" id="age" placeholder="Enter age"></span>
+              </label>
+            </div>
+        </div>
+      </div>
+      <div class="row-tab">
+        <div class="row-field">
+          <div class="row-title">
+            <label for="employ" id="employ-title">
+              <span>Current Employment Status:</span>
+              </label>
+          </div>
+          <div class="dropdown">
+            <select id="statusDropdown">
+              <option value="student">Student</option>
+              <option value="full-time">Full-time</option>
+              <option value="part-time">Part-time</option>
+              <option value="prefer">Prefer not to say</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <div class="row-tab">
+        <div class="row-field">
+          <div class="row-title">
+            <label for="commute" id="commuteFreq">
+              <span>*Number of days you bike commute each week:</span>
+              <label>
+          </div>
+          <div class="sector">
+            <ul class="list-style">
+              <li class="radio">
+                <label>
+                  5
+                  <input name="radio-buttons" value="1" type="Radio" class="rideFreq">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  4
+                  <input name="radio-buttons" value="2" type="Radio" class="rideFreq">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  3
+                  <input name="radio-buttons" value="3" type="Radio" class="rideFreq">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  2
+                  <input name="radio-buttons" value="4" type="Radio" class="rideFreq">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  1
+                  <input name="radio-buttons" value="5" type="radio" class="rideFreq">
+                </label>
+              </li>
+              <li class="radio">
+                <label>
+                  0
+                  <input name="radio-buttons" value="6" type="Radio" class="rideFreq">
+                </label>
+              </li>
+            </ul>
+          </div>
+              </div>
+          </div>
+          <div class="row-tab">
+            <div class="row-field">
+              <div class="row-title">
+                <label for="like" id="like-most">
+                  <span>What do you like most about bike commuting?</span>
+                  </label>
+              </div>
+              <div class="dropdown">
+                <select name="dropdown" class="likeDropdown">
+                  <option value="exercise">Exercise</option>
+                  <option value="freshAir">Fresh Air</option>
+                  <option value="explore">Explore New Places</option>
+                  <option value="saveMoney">Save Money</option>
+                  <option value="bike">Bikes Are Awesome</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row-tab">
+            <div class="row-field">
+              <div class="row-title">
+              <label for="better" id="improve">                                         <span>What would improve your bike commuting experience?</span>
+                <span id="select">(Select All)</span>
+                </label>
+            </div>
+              <div class="most-list">
+                <ul id="improveList" style="list-style: none;">
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="1" type="checkbox" class="indivImprove">
+                      Roads
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="2" type="checkbox" class="indivImprove">
+                      Facilities
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="3" type="checkbox" class="indivImprove">
+                      Employer Incentive
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="4" type="checkbox" class="indivImprove">
+                      App Assistance
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="5" type="checkbox" class="indivImprove">
+                      Tax Incentive
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="6" type="checkbox" class="indivImprove">
+                      Bike-share
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="7" type="checkbox" class="indivImprove">
+                      More Bike Lanes
+                    </label>
+                  </li>
+                  <li class="checkbox">
+                    <label>
+                      <input name="prefer" value="8" type="checkbox" class="indivImprove">                Bike Safety Courses
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <div class="row=tab">
+            <div class="row-field">
+              <label id="commentsTitle" for="comments">
+                <span>Any additional comments or suggestions?</span>
+              </label>
+            </div>
+            <div class="textArea">
+              <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+          </div>
+          <button id="submit" type="button" onClick="message();">Submit</button>
+          </form>
+        </body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

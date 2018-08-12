@@ -1,0 +1,67 @@
+.fullpage {
+  background: radial-gradient( #ffffff,#568DB8);
+}
+
+#survey-form {
+  background: linear-gradient(#A6ACAF, #ffffff);
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 550px;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+span {
+  margin-left: 2em;
+  margin-top: 15px;
+  font-family: 'Noto Sans', san-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.dropdown {
+  margin-left: 35px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+#select {
+  font-size: 12px;
+}
+
+#improveList {
+  margin-top: 5px;
+  margin-left: 20px;  
+}
+
+#comments {
+  margin-top: 10px;
+  margin-left: 2em;
+  width: 500px;
+}
+
+#submit {
+  margin: 5px 0 10px 225px;
+  font-size: 25px;
+  border-radius: 8px;
+}
