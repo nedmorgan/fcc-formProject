@@ -11,6 +11,14 @@ function formValidate() {
   }
 }
 
+function checkName() {
+  let fullName = document.getElementById("name");
+  if (fullName.value.length === 0) {
+    alert("Please enter your full name");
+    return false;
+  }
+}
+
 function message() {
   alert("Thank you for submitting!")
 }
